@@ -1,3 +1,4 @@
 from msvcrt import getch
 while True:
-    print(ord(getch()))
+    keypress = ord(getch())
+    print(keypress)
